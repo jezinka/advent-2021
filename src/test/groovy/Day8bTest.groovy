@@ -4,7 +4,7 @@ class Day8bTest extends Specification {
 
     def "process"() {
         given:
-        List displays = Day8b.prepareData('src/test/resources/input8test.txt')
+        List displays = Day8b.prepareData('src/test/resources/input8')
 
         when:
         def result = Day8b.process(displays)

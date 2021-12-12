@@ -3,7 +3,7 @@ import spock.lang.Specification
 class Day1bTest extends Specification {
     def "processWindow"() {
         given:
-        List<Integer> depths = new File('src/test/resources/input1test.txt').readLines().collect { it as Integer}
+        List<Integer> depths = new File('src/test/resources/input1').readLines().collect { it as Integer}
 
         when:
         def result = Day1b.processWindow(depths)

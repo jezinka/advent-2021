@@ -4,7 +4,7 @@ class Day10aTest extends Specification {
 
     def "process"() {
         given:
-        List map = Day10a.prepareData('src/test/resources/input10test.txt')
+        List map = Day10a.prepareData('src/test/resources/input10')
 
         when:
         def result = Day10a.process(map)

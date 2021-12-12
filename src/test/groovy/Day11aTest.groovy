@@ -19,7 +19,7 @@ class Day11aTest extends Specification {
 
     def "process"() {
         given:
-        List octopuses = Day11a.prepareData('src/test/resources/input11test.txt')
+        List octopuses = Day11a.prepareData('src/test/resources/input11')
 
         when:
         def result = Day11a.process(octopuses, 100)
