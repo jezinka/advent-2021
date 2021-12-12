@@ -6,12 +6,12 @@ class Day8aTest extends Specification {
         given:
         List displays = ['fdgacbe', 'cefdb', 'cefbgd', 'gcbe',
                          'fcgedb', 'cgb', 'dgebacf', 'gc',
-                         'cg cg', 'fdcagb', 'cbg', '',
+                         'cg', 'cg', 'fdcagb', 'cbg',
                          'efabcd', 'cedba', 'gadfec', 'cb',
                          'gecf', 'egdcabf', 'bgf', 'bfgea',
                          'gebdcfa', 'ecba', 'ca', 'fadegcb',
                          'cefg', 'dcbef', 'fcge', 'gbcadfe',
-                         'ed bcgafe', 'cdgba', 'cbgef',
+                         'ed', 'bcgafe', 'cdgba', 'cbgef',
                          'gbdfcae', 'bgc', 'cg', 'cgb',
                          'fgae', 'cfgab', 'fg', 'bagce']
 
